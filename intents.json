@@ -1,0 +1,44 @@
+{
+    "intents":[
+        {"tags":"greetings",
+        "patterns":["Hello","Hey","i am","i want to","Hi","Greetings","What's Up?","Kaise ho bro?"],
+        "responses":["Hello Sir/Madam, I am a heart condition predictor. Please, tell me about some of your symptoms !"]
+        },
+        {
+            "tags":"goodbye",
+            "patterns":["bye","tata","alvida"],
+            "responses":["Happy to help"]
+        },
+        {
+            "tags":"introduction1",
+            "patterns":["chest pain","discomfort","pressure","tightness","heaviness "," pain in the chest area"],
+            "responses":["Rate the pain or discomfort on a scale of 1-10"]
+        },
+        {
+            "tags":"RatePain-1to3",
+            "patterns":["1","2","3"],
+            "responses":["If you are between 5 to 20 years of age, please consult a general physician if the pain persists for a few days. If you are above 20 years of age and having any of the mentioned issues, it will be wise to consult a heart specialist ASAP otherwise do so if the pain persists over a week - High blood pressure and cholesterol,Obesity,Diabetes, genetic conditions"]
+        },
+        {
+            "tags":"RatePain-4to6",
+            "patterns":["4","5","6"],
+            "responses":["If you are you facing any of the following Symptoms regularly, please mention - shortness of breath, nausea, sweating, lightheadedness,dizziness or pain radiating down the arm"]
+        },
+        {
+            "tags":"introduction2",
+            "patterns":["shortness of breath","nausea"," sweating","lightheadedness","dizziness"," pain radiating down the arm","cold sweat"],
+            "responses":["As per your provided symptom, there is a possible risk of a cardiovascular condition, I would recommend you to have a thorough body checkup and then consult a doctor as there can be other health risks other than a cardiovascular condition"]
+        },
+        {
+            "tags":"RatePain-7to10",
+            "patterns":["7","8","9","10"],
+            "responses":["As per your provided rating of pain, I have categorised it as severe. I would highly recommend you to seek medical help immediately especially if it  accompanied by other concerning symptoms like shortness of breath, nausea, sweating, lightheadedness, or pain radiating down the arm."]
+        },
+       
+        {
+            "tags":"name",
+            "patterns":["What is your name","What's your name","Name","Your Name","Who are you","What shall I call you","Name please"],
+            "responses":["I am a chatbot, I recommend people whether there is a possible risk of heart disorder and if its time to consult a doctor"]
+        } 
+    ]} 
+      
